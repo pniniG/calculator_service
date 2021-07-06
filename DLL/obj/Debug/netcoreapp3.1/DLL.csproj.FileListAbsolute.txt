@@ -1,0 +1,13 @@
+D:\Users\yehudit\Desktop\מחשבון\calculatorService\DLL\bin\Debug\netcoreapp3.1\DLL.exe
+D:\Users\yehudit\Desktop\מחשבון\calculatorService\DLL\bin\Debug\netcoreapp3.1\DLL.deps.json
+D:\Users\yehudit\Desktop\מחשבון\calculatorService\DLL\bin\Debug\netcoreapp3.1\DLL.runtimeconfig.json
+D:\Users\yehudit\Desktop\מחשבון\calculatorService\DLL\bin\Debug\netcoreapp3.1\DLL.runtimeconfig.dev.json
+D:\Users\yehudit\Desktop\מחשבון\calculatorService\DLL\bin\Debug\netcoreapp3.1\DLL.dll
+D:\Users\yehudit\Desktop\מחשבון\calculatorService\DLL\bin\Debug\netcoreapp3.1\DLL.pdb
+D:\Users\yehudit\Desktop\מחשבון\calculatorService\DLL\obj\Debug\netcoreapp3.1\DLL.csproj.AssemblyReference.cache
+D:\Users\yehudit\Desktop\מחשבון\calculatorService\DLL\obj\Debug\netcoreapp3.1\DLL.AssemblyInfoInputs.cache
+D:\Users\yehudit\Desktop\מחשבון\calculatorService\DLL\obj\Debug\netcoreapp3.1\DLL.AssemblyInfo.cs
+D:\Users\yehudit\Desktop\מחשבון\calculatorService\DLL\obj\Debug\netcoreapp3.1\DLL.csproj.CoreCompileInputs.cache
+D:\Users\yehudit\Desktop\מחשבון\calculatorService\DLL\obj\Debug\netcoreapp3.1\DLL.dll
+D:\Users\yehudit\Desktop\מחשבון\calculatorService\DLL\obj\Debug\netcoreapp3.1\DLL.pdb
+D:\Users\yehudit\Desktop\מחשבון\calculatorService\DLL\obj\Debug\netcoreapp3.1\DLL.genruntimeconfig.cache

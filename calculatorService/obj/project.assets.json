@@ -1,0 +1,381 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Microsoft.Web.Infrastructure/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Microsoft.Web.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Microsoft.Web.Infrastructure.dll": {}
+        }
+      },
+      "Newtonsoft.Json/13.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Ninject/3.0.0.15": {
+        "type": "package",
+        "compile": {
+          "lib/net45-full/Ninject.dll": {}
+        },
+        "runtime": {
+          "lib/net45-full/Ninject.dll": {}
+        }
+      },
+      "Ninject.Web.Common/3.0.0.7": {
+        "type": "package",
+        "dependencies": {
+          "Ninject": "[3.0.0, 3.1.0)",
+          "WebActivator": "1.5.0"
+        },
+        "compile": {
+          "lib/net45-full/Ninject.Web.Common.dll": {}
+        },
+        "runtime": {
+          "lib/net45-full/Ninject.Web.Common.dll": {}
+        }
+      },
+      "Ninject.WebApi.DependencyResolver/0.1.4758.24814": {
+        "type": "package",
+        "dependencies": {
+          "Ninject.Web.Common": "3.0.0.7"
+        },
+        "compile": {
+          "lib/net45/Ninject.WebApi.DependencyResolver.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Ninject.WebApi.DependencyResolver.dll": {}
+        }
+      },
+      "WebActivator/1.5.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Web.Infrastructure": "1.0.0"
+        },
+        "compile": {
+          "lib/net40/WebActivator.dll": {}
+        },
+        "runtime": {
+          "lib/net40/WebActivator.dll": {}
+        }
+      },
+      "BLL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "DLL": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BLL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BLL.dll": {}
+        }
+      },
+      "DLL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/DLL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DLL.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.Web.Infrastructure/1.0.0": {
+      "sha512": "FNmvLn5m2LTU/Rs2KWVo0SIIh9Ek+U0ojex7xeDaSHw/zgEP77A8vY5cVWgUtBGS8MJfDGNn8rpXJWEIQaPwTg==",
+      "type": "package",
+      "path": "microsoft.web.infrastructure/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Microsoft.Web.Infrastructure.dll",
+        "microsoft.web.infrastructure.1.0.0.nupkg.sha512",
+        "microsoft.web.infrastructure.nuspec"
+      ]
+    },
+    "Newtonsoft.Json/13.0.1": {
+      "sha512": "ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
+      "type": "package",
+      "path": "newtonsoft.json/13.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "newtonsoft.json.13.0.1.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    },
+    "Ninject/3.0.0.15": {
+      "sha512": "oQylTjvE3I5zIWLEerGusngaiMJN5rwyiH+fsFzhO8g75DG1dlPFtoO+7kHwy6U55K5qtjdLb9Z5W+CYRHJH1w==",
+      "type": "package",
+      "path": "ninject/3.0.0.15",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net35/Ninject.dll",
+        "lib/net35/Ninject.pdb",
+        "lib/net35/Ninject.xml",
+        "lib/net40/Ninject.dll",
+        "lib/net40/Ninject.pdb",
+        "lib/net40/Ninject.xml",
+        "lib/net45-full/Ninject.dll",
+        "lib/net45-full/Ninject.pdb",
+        "lib/net45-full/Ninject.xml",
+        "lib/sl2/Ninject.dll",
+        "lib/sl2/Ninject.pdb",
+        "lib/sl2/Ninject.xml",
+        "lib/sl3-wp/Ninject.dll",
+        "lib/sl3-wp/Ninject.pdb",
+        "lib/sl3-wp/Ninject.xml",
+        "lib/sl3/Ninject.dll",
+        "lib/sl3/Ninject.pdb",
+        "lib/sl3/Ninject.xml",
+        "lib/sl4-windowsphone71/Ninject.dll",
+        "lib/sl4-windowsphone71/Ninject.pdb",
+        "lib/sl4-windowsphone71/Ninject.xml",
+        "lib/sl4/Ninject.dll",
+        "lib/sl4/Ninject.pdb",
+        "lib/sl4/Ninject.xml",
+        "lib/sl5/Ninject.dll",
+        "lib/sl5/Ninject.pdb",
+        "lib/sl5/Ninject.xml",
+        "ninject.3.0.0.15.nupkg.sha512",
+        "ninject.nuspec"
+      ]
+    },
+    "Ninject.Web.Common/3.0.0.7": {
+      "sha512": "pTd1l0DxykX4RcNb1xO77lzp3ylvN0YmUEIDQ7UCH9jhvKEBKZGPrDLGu/s7LVLhvEMpT1Nr1cxch5EtpQL+tg==",
+      "type": "package",
+      "path": "ninject.web.common/3.0.0.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Content/App_Start/NinjectWebCommon.cs.pp",
+        "lib/net35-full/Ninject.Web.Common.dll",
+        "lib/net35-full/Ninject.Web.Common.pdb",
+        "lib/net35-full/Ninject.Web.Common.xml",
+        "lib/net40-full/Ninject.Web.Common.dll",
+        "lib/net40-full/Ninject.Web.Common.pdb",
+        "lib/net40-full/Ninject.Web.Common.xml",
+        "lib/net45-full/Ninject.Web.Common.dll",
+        "lib/net45-full/Ninject.Web.Common.pdb",
+        "lib/net45-full/Ninject.Web.Common.xml",
+        "ninject.web.common.3.0.0.7.nupkg.sha512",
+        "ninject.web.common.nuspec"
+      ]
+    },
+    "Ninject.WebApi.DependencyResolver/0.1.4758.24814": {
+      "sha512": "3fSeLsowMoXZwc9e6UZ1ejGrfYalSGgOyrgh0OS0YX8HMyjxWdmSagEn8IILW6ZycnRkhutUodxtAMoMkStShg==",
+      "type": "package",
+      "path": "ninject.webapi.dependencyresolver/0.1.4758.24814",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "content/App_Readme/readme.txt",
+        "lib/net45/Ninject.WebApi.DependencyResolver.dll",
+        "ninject.webapi.dependencyresolver.0.1.4758.24814.nupkg.sha512",
+        "ninject.webapi.dependencyresolver.nuspec",
+        "readme.txt"
+      ]
+    },
+    "WebActivator/1.5.0": {
+      "sha512": "nldyuFfAUyWmqeY5gtbJm/lfDGKm8rFd+sv72eGTrrBL1nZdOWAaYiiNOH8dU/ShGxK/U53TGmzTHaadgY+W3w==",
+      "type": "package",
+      "path": "webactivator/1.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/WebActivator.dll",
+        "webactivator.1.5.0.nupkg.sha512",
+        "webactivator.nuspec"
+      ]
+    },
+    "BLL/1.0.0": {
+      "type": "project",
+      "path": "../BLL/BLL.csproj",
+      "msbuildProject": "../BLL/BLL.csproj"
+    },
+    "DLL/1.0.0": {
+      "type": "project",
+      "path": "../DLL/DLL.csproj",
+      "msbuildProject": "../DLL/DLL.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "BLL >= 1.0.0",
+      "DLL >= 1.0.0",
+      "Newtonsoft.Json >= 13.0.1",
+      "Ninject.WebApi.DependencyResolver >= 0.1.4758.24814"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\1\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\Users\\yehudit\\Desktop\\מחשבון\\calculatorService\\calculatorService\\calculatorService.csproj",
+      "projectName": "calculatorService",
+      "projectPath": "D:\\Users\\yehudit\\Desktop\\מחשבון\\calculatorService\\calculatorService\\calculatorService.csproj",
+      "packagesPath": "C:\\Users\\1\\.nuget\\packages\\",
+      "outputPath": "D:\\Users\\yehudit\\Desktop\\מחשבון\\calculatorService\\calculatorService\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {
+            "D:\\Users\\yehudit\\Desktop\\מחשבון\\calculatorService\\BLL\\BLL.csproj": {
+              "projectPath": "D:\\Users\\yehudit\\Desktop\\מחשבון\\calculatorService\\BLL\\BLL.csproj"
+            },
+            "D:\\Users\\yehudit\\Desktop\\מחשבון\\calculatorService\\DLL\\DLL.csproj": {
+              "projectPath": "D:\\Users\\yehudit\\Desktop\\מחשבון\\calculatorService\\DLL\\DLL.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "dependencies": {
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[13.0.1, )"
+          },
+          "Ninject.WebApi.DependencyResolver": {
+            "target": "Package",
+            "version": "[0.1.4758.24814, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Ninject.Web.Common 3.0.0.7 depends on Ninject (>= 3.0.0 && < 3.1.0) but Ninject 3.0.0 was not found. An approximate best match of Ninject 3.0.0.15 was resolved.",
+      "libraryId": "Ninject",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.Web.Infrastructure 1.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.Web.Infrastructure",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Ninject 3.0.0.15' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "Ninject",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Ninject.Web.Common 3.0.0.7' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "Ninject.Web.Common",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Ninject.WebApi.DependencyResolver 0.1.4758.24814' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "Ninject.WebApi.DependencyResolver",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'WebActivator 1.5.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "WebActivator",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}
